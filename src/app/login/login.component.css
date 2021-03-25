@@ -1,20 +1,71 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #17a2b8;
+    background-color: #1B203A;
     height: 100vh;
+  
   }
   #login .container #login-row #login-column #login-box {
     margin-top: 120px;
     max-width: 600px;
     height: 320px;
-    border: 1px solid #9C9C9C;
-    background-color: #EAEAEA;
+    border: 1px solid;
+    background-color:#252C48;
+  
+    
   }
   #login .container #login-row #login-column #login-box #login-form {
     padding: 20px;
+    
+
   }
   #login .container #login-row #login-column #login-box #login-form #register-link {
     margin-top: -85px;
+    color:#252C48;
+    
   }
+  #login{
+     
+    font-family: Caros,Regular;
+    
+  }
+h3{
+  font-size: 28px;
   
+}
+.form-control {
+  display: block;
+  margin: auto;
+  padding: 0.375rem .75rem;
+  font-size: 1rem;
+  line-height: 0.75rem;
+  color: #495057;
+  background-color: #252C48;
+  background-clip: padding-box;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group {
+  margin-bottom: 1.0rem;
+  border: none;
+}
+.text-info {
+  color: #FFFFFF80!important;
+  text-align: center;
+  display: block;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color:#E9204F;
+  border-color: #007bff;
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+.h1, h1 {
+  font-size: 3.4rem;
+}
