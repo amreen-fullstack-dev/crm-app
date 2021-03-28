@@ -69,3 +69,12 @@ h3{
 .h1, h1 {
   font-size: 3.4rem;
 }
+.text-info {
+
+  cursor: pointer;
+
+}
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: underline;
+}
